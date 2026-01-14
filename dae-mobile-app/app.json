@@ -16,10 +16,12 @@
       "supportsTablet": true,
       "bundleIdentifier": "com.yanfu.daemobileapp",
       "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSLocalNetworkUsageDescription": "Allow access to local network to connect to the backend server."
       }
     },
     "android": {
+      "package": "com.una290.daemobileapp",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -31,14 +33,15 @@
     },
     "extra": {
       "eas": {
-        "projectId": "1bccf01d-9757-42d1-8546-759c7a0c4f5f"
+        "projectId": "62b92946-c468-4dad-af04-c01ab07a3905"
       }
     },
     "runtimeVersion": {
       "policy": "appVersion"
     },
     "updates": {
-      "url": "https://u.expo.dev/1bccf01d-9757-42d1-8546-759c7a0c4f5f"
-    }
+      "url": ""
+    },
+    "owner": "una290"
   }
 }

@@ -1,4 +1,4 @@
-export const API_BASE_URL = 'http://localhost:8000';
+export const API_BASE_URL = 'https://curvy-squids-grow.loca.lt';
 // Note: If testing on a physical device, replace 'localhost' with your PC's IP address (e.g., 192.168.1.x)
 
 export const fetchMetrics = async () => {
